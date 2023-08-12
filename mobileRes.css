@@ -1,6 +1,6 @@
 @media screen and (max-width: 1080px) {
     .navbar {
-        height: 5vh;
+        height: 7vh;
         width: 100%;
         display: flex;
         align-items: center;
@@ -29,6 +29,7 @@
     .container {
         flex-wrap: wrap;
         height: 100vh;
+        gap: 50px;
     }
 
     .container-inner-box {
@@ -39,15 +40,15 @@
 
     .landing-text {
         align-items: center;
-        height: 50%;
+        height: 40%;
     }
 
     .landing-text>h1 {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     .landing-text>h3 {
-        font-size: 30px;
+        font-size: 20px;
         font-weight: 300;
     }
 
@@ -56,16 +57,39 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 20px;
+        gap: 10px;
     }
-
+    .landing-btn-box>button {
+        height: 40%;
+        width: 40%;
+        font-size: 20px;
+        cursor: pointer;
+        transition: var(--btnTransition);
+    }
     .landing-img {
         margin-top: -100px;
+        height: 40%;
     }
 
     .landing-img>img {
         height: 70%;
         align-self: flex-start;
+    }
+    .landing-slider {
+        height: 10%;
+        width: 100%;
+        position: absolute;
+        z-index: 2;
+        bottom: 10px;
+    }
+    
+    .landing-slider>img {
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
     }
 
     /* this is for cards container */
