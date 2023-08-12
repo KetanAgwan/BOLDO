@@ -37,6 +37,7 @@
         flex-wrap: wrap;
         height: 100vh;
         gap: 50px;
+        overflow: hidden;
     }
 
     .container-inner-box {
