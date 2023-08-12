@@ -28,17 +28,18 @@
 
     .container {
         flex-wrap: wrap;
-        height: 70vh;
+        height: 100vh;
     }
 
     .container-inner-box {
-        height: 40%;
+        height: 50%;
         width: 95%;
         text-align: center;
     }
 
     .landing-text {
         align-items: center;
+        height: 50%;
     }
 
     .landing-text>h1 {
@@ -63,7 +64,7 @@
     }
 
     .landing-img>img {
-        height: 90%;
+        height: 70%;
         align-self: flex-start;
     }
 
