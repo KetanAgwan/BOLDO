@@ -25,6 +25,13 @@
     .nav-options>button {
         font-size: 15px;
     }
+    .the-half-circle {
+        top: -50%;
+        right: -55%;
+        height: 500px;
+        width: 500px;
+    }
+    
 
     .container {
         flex-wrap: wrap;
@@ -40,7 +47,7 @@
 
     .landing-text {
         align-items: center;
-        height: 40%;
+        height: 50%;
     }
 
     .landing-text>h1 {
@@ -72,7 +79,7 @@
     }
 
     .landing-img>img {
-        height: 70%;
+        height: 80%;
         align-self: flex-start;
     }
     .landing-slider {
