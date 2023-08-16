@@ -57,7 +57,7 @@
 
     .landing-text {
         align-items: center;
-        height: 40%;
+        height: 50%;
     }
 
     .landing-text>h1 {
@@ -77,11 +77,9 @@
         gap: 10px;
     }
     .landing-btn-box>button {
-        height: 40%;
+        height: 38%;
         width: 40%;
-        font-size: 20px;
-        cursor: pointer;
-        transition: var(--btnTransition);
+        font-size: 17px;
     }
     .landing-img {
         margin-top: 0px;
@@ -119,7 +117,7 @@
     }
 
     .cards-container-header>h3 {
-        font-size: 50px;
+        font-size: 25px;
         font-weight: 400;
     }
 
@@ -135,28 +133,28 @@
     }
 
     .cards-1 {
-        height: 27%;
+        height: 30%;
         width: 60%;
     }
 
     .cards-1>h2 {
         font-weight: 400;
-        font-size: 50px;
-        line-height: 40px;
+        font-size: 18px;
+        line-height: 22px;
         padding-left: 20px;
     }
 
     .cards-1>h3 {
         font-weight: 400;
-        line-height: 30px;
+        line-height: 22px;
         padding-left: 10px;
-        font-size: 40px;
+        font-size: 20px;
         padding-left: 20px;
     }
 
     .cards-1>button {
-        font-size: 30px;
-        padding-left: 20px;
+        font-size: 15px;
+        padding-left: 5px;
 
     }
 
@@ -170,7 +168,7 @@
     }
 
     .img-container>img {
-        height: 70%;
+        height: 80%;
         width: 100%;
         transform: translate(-50%, -50%);
     }
@@ -190,11 +188,11 @@
     }
 
     .img-overlap-1>h1 {
-        font-size: 50px;
+        font-size: 20px;
     }
 
     .img-overlap-1>h3 {
-        font-size: 40px;
+        font-size: 18px;
     }
 
     .text-container {
@@ -209,7 +207,7 @@
 
     .text-container>div {
         height: 40%;
-        font-size: 50px;
+        font-size: 20px;
     }
 
     .checkBox {
@@ -217,14 +215,15 @@
     }
 
     .checkBox>img {
-        height: 45px;
-        width: 45px;
+        height: 22px;
+        width: 22px;
         border-radius: 50%;
     }
 
     .text-container>button {
         width: 45%;
-        font-size: 35px;
+        font-size: 18px;
+        height:10%;
     }
 
     .text-container2 {
@@ -239,23 +238,24 @@
     .boxex-container {
         height: 55%;
         width: 100%;
-        gap: 30px;
+        gap: 15px;
     }
 
     .boxex {
-        height: 20%;
+        height: 40%;
         width: 82%;
-        gap: 30px;
-        font-size: 40px;
+        gap: 20px;
+        font-size: 15px;
         padding-left: 20px;
     }
 
     .img-container>img {
         width: 85%;
+        height: 90%;
     }
 
     .img-overlap-2 {
-        height: 50%;
+        height: 60%;
         width: 45%;
         position: absolute;
         left: 55%;
@@ -275,7 +275,7 @@
     }
 
     .container-2>h1 {
-        font-size: 90px;
+        font-size: 30px;
         font-weight: 500;
         width: 80%;
 
@@ -289,29 +289,33 @@
     }
 
     .swiper-slide {
-        width: 800px !important;
-        height: 800px !important;
+        width: 300px !important;
+        height: 400px !important;
     }
 
     .slide-text {
-        font-size: 80px;
+        font-size: 30px;
     }
 
     .slide-profile {
         height: 25%;
         width: 90%;
         gap: 20px;
-        font-size: 40px;
+        font-size: 18px;
     }
 
     .slide-profile>img {
         border-radius: 50%;
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
     }
 
     .slide-profile>div>span {
-        font-weight: 700;
+        font-weight: 500;
+    }
+    .slide-profile>div>p{
+        font-size: 13px;
+        font-weight: 400;
     }
 
     .container-3 {
@@ -341,7 +345,7 @@
     .footer-right {
         height: 30%;
         width: 100%;
-        font-size: 50px;
+        font-size: 18px;
         text-align: center;
     }
 
@@ -351,7 +355,7 @@
     }
 
     .container-4 {
-        height: 130vh;
+        height: 200vh;
         width: 100vw;
     }
 
@@ -362,7 +366,7 @@
     }
 
     .container-4-header>div:nth-child(1) {
-        font-size: 40px;
+        font-size: 25px;
         font-weight: 400;
     }
 
@@ -373,7 +377,7 @@
 
     .cards-2 {
         height: 30%;
-        width: 50%;
+        width: 70%;
     }
 
     .cards-2>.card-img {
@@ -390,26 +394,27 @@
         height: 13%;
         justify-content: start;
         gap: 50px;
-        padding-left: 50px;
+        padding-left: 20px;
         font-weight: 600;
+        box-sizing: border-box;
     }
 
     .cards-2>h2>span {
-        font-size: 30px;
+        font-size: 16px;
     }
 
     .cards-2>h3 {
         height: 25%;
-        font-size: 40px;
-        line-height: 55px;
+        font-size: 20px;
+        line-height: 22px;
         color: rgb(78, 77, 77);
     }
     .container-4-footer{
-        height: 5%;
+        height: 7%;
         width: 100%;
         display: flex;
-        align-items: center;
-        justify-content: center;
+        align-items: flex-end;
+        justify-content:center;
     }
     .container-4-footer > button{
         height: 50%;
@@ -418,29 +423,39 @@
     }
 
     .footer-container{
-        height: 100vh;
+        height: 150vh;
     }
     .footer-upper-box{
         height:20%;
         width: 90%;
     }
+    .footer-upper-box-center{
+        width: 90%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+
+    }
     .footer-upper-box-center > h1{
         font-size: 20px;
         font-weight: 400;
-        line-height: 75px;
+        line-height: 22px;
     }
     .footer-upper-box-center > div{
         height: 40%;
         width: 100%;
     }
     .footer-upper-box-center > div > input{
-        font-size: 20px;
-        padding: 15px 25px;
+        font-size: 15px;
+        width: 60%;
+        padding: 5px 10px;
     }
     .footer-upper-box-center > div > button{
-        height: 60%;
+        height: 40%;
         width: 30%;
-        font-size: 30px;
+        font-size: 15px;
         font-weight: 600;
     }
 
@@ -454,7 +469,7 @@
         width: 100%;
     }
     .footer-logo > .desc{
-        font-size: 40px;
+        font-size: 20px;
         height: 25%;
     }
     .footer-logo > h3{
