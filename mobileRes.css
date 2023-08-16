@@ -48,6 +48,7 @@
         overflow: hidden;
         align-items: center;
         justify-content: center;
+        overflow-x: hidden;
     }
 
     .container-inner-box {
@@ -97,6 +98,7 @@
         position: absolute;
         z-index: 2;
         bottom: 10px;
+        overflow-x: hidden;
     }
     
     .landing-slider>img {
@@ -111,6 +113,8 @@
     /* this is for cards container */
     .cards-container {
         min-height: 200vh;
+        overflow-x: hidden;
+
     }
 
     .cards-container-header {
@@ -131,6 +135,8 @@
         min-height: 80%;
         width: 100%;
         gap: 30px;
+        overflow-x: hidden;
+
     }
 
     .cards-1 {
@@ -161,6 +167,8 @@
     .container-1 {
         flex-wrap: wrap;
         height: 120vh;
+        overflow-x: hidden;
+
     }
 
     .container-inner-box2 {
@@ -240,6 +248,8 @@
         height: 55%;
         width: 100%;
         gap: 15px;
+        overflow-x: hidden;
+
     }
 
     .boxex {
@@ -335,6 +345,8 @@
     .container-3-footer {
         height: 50%;
         width: 90%;
+        overflow-x: hidden;
+
     }
 
     .footer-left {
@@ -358,6 +370,8 @@
     .container-4 {
         min-height: 300vh;
         width: 100vw;
+        overflow-x: hidden;
+
     }
 
     .container-4-header {
@@ -429,6 +443,8 @@
     .footer-upper-box{
         height:20%;
         width: 90%;
+        overflow-x: hidden;
+
     }
     .footer-upper-box > .the-half-circle{
         height: 300px;
@@ -443,7 +459,6 @@
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
-
     }
     .footer-upper-box-center > h1{
         font-size: 20px;
@@ -470,6 +485,8 @@
         height: 70%;
         width: 80%;
        align-items: flex-start;
+       overflow-x: hidden;
+
     }
     .footer-logo{
         height: 25%;
