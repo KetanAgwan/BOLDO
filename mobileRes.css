@@ -475,6 +475,10 @@
     .footer-logo > h3{
         font-size: 30px;
     }
+    .footer-logo > h3{
+        color:var(--secondaryText) ;
+        font-size: 18px;
+    }
     .footer-divs{
         height: 90%;
         width: 100%;
@@ -483,10 +487,10 @@
         align-items: flex-start;
     }
     .footer-divs > h3{
-        font-size: 35px;
+        font-size: 20px;
     }
     .footer-divs > li{
-        font-size: 30px;
+        font-size: 18px;
     }
     
 }
