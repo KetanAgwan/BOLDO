@@ -114,7 +114,6 @@
     .cards-container {
         min-height: 200vh;
         overflow-x: hidden;
-        overflow-y: visible;
     }
 
     .cards-container-header {
@@ -167,9 +166,6 @@
     .container-1 {
         flex-wrap: wrap;
         height: 120vh;
-        overflow-x: hidden;
-        overflow-y: visible;
-
     }
 
     .container-inner-box2 {
@@ -249,9 +245,6 @@
         height: 55%;
         width: 100%;
         gap: 15px;
-        overflow-x: hidden;
-        overflow-y: visible;
-
     }
 
     .boxex {
@@ -347,9 +340,6 @@
     .container-3-footer {
         height: 50%;
         width: 90%;
-        overflow-x: hidden;
-        overflow-y: visible;
-
     }
 
     .footer-left {
@@ -373,9 +363,6 @@
     .container-4 {
         min-height: 300vh;
         width: 100vw;
-        overflow-x: hidden;
-        overflow-y: visible;
-
     }
 
     .container-4-header {
@@ -490,9 +477,6 @@
         height: 70%;
         width: 80%;
        align-items: flex-start;
-       overflow-x: hidden;
-       overflow-y: visible;
-
     }
     .footer-logo{
         height: 25%;
