@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 1080px) {
     *{
         -webkit-user-select: none; /* Safari */
         -ms-user-select: none; /* IE 10 and IE 11 */
@@ -273,6 +273,7 @@
         height: 100vh;
         gap: 60px;
         justify-content: space-evenly;
+        overflow: hidden;
     }
 
     .container-2>h1 {
