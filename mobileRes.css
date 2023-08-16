@@ -355,7 +355,7 @@
     }
 
     .container-4 {
-        height: 200vh;
+        min-height: 200vh;
         width: 100vw;
     }
 
