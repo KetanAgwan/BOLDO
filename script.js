@@ -2,7 +2,7 @@
 
 AOS.init({
     duration: 1000,
-    offset: 220
+    offset: 190
 });
 
 // javascript for swiper 
