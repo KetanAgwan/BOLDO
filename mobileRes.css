@@ -131,15 +131,15 @@
     }
 
     .cards-box {
-        min-height: 80%;
+        min-height: 90%;
         width: 100%;
         gap: 30px;
-        overflow-y: visible;
-
+        overflow-x: hidden;
+        overflow-y: visible !important;
     }
 
     .cards-1 {
-        height: 30%;
+        height: 25%;
         width: 60%;
     }
 
@@ -173,8 +173,8 @@
         width: 90%;
     }
 
-    .img-container>img {
-        height: 60%;
+    .img-container > img{
+        height: 80% !important;
         width: 100%;
         transform: translate(-50%, -50%);
     }
